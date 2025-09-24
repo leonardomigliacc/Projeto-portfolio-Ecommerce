@@ -43,6 +43,8 @@ Clientes fictícios inseridos.
 
 Pedidos e itens de pedidos registrados no banco.
 
+
+
 **Dashboard em Power BI com:**
 
 Vendas totais
@@ -58,3 +60,4 @@ Origens de clientes (marketing)
 Cancelamentos (com motivos)
 
 Formas de pagamento
+
