@@ -8,7 +8,7 @@ Criar um pipeline de dados que:
 - Gera clientes fictícios.
 - Cria pedidos e itens de pedidos.
 - Armazena tudo em um banco de dados MySQL hospedado na **AWS RDS**.
-- Permite análises em **Power BI**, como vendas, origens de clientes, formas de pagamento e motivos de cancelamento.
+- Permite análises em **Power BI**, como funil de vendas, origens de marketing, estudo de clientes, motivos de cancelamento etc.
 
 ##  Tecnologias utilizadas
 - **Python** (para o ETL)
@@ -23,8 +23,6 @@ etl_ecommerce/
 │-- requirements.txt # Dependências do projeto
 │-- README.md # Documentação
 
-bash
-Copia codice
 
 ##  Como executar
 1. Clone o repositório:
@@ -32,16 +30,11 @@ Copia codice
    git clone https://github.com/leonardomigliacc/etl-ecommerce.git
    cd etl-ecommerce
 Instale as dependências:
-
-bash
-Copia codice
 pip install -r requirements.txt
 Configure o banco de dados MySQL no AWS RDS ou localmente.
 
-Rode o ETL:
 
-bash
-Copia codice
+Rode o ETL:
 python etl_ecommerce.py
 Resultados esperados
 Produtos carregados da API.
@@ -50,21 +43,18 @@ Clientes fictícios inseridos.
 
 Pedidos e itens de pedidos registrados no banco.
 
-Dashboard em Power BI com:
+**Dashboard em Power BI com:**
 
 Vendas totais
 
+Funil
+
+Pedidos e itens
+
 Lucro
 
-Origens de clientes
+Origens de clientes (marketing)
 
 Cancelamentos (com motivos)
 
 Formas de pagamento
-
-## Próximos passos
-Tratar valores em branco (formas de pagamento e origens).
-
-Documentar melhor o pipeline no Power BI.
-
-Criar versão em AWS completa (com S3, Glue, Athena).
