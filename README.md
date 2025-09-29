@@ -24,26 +24,6 @@ etl_ecommerce/
 │-- README.md # Documentação
 
 
-##  Como executar
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/leonardomigliacc/etl-ecommerce.git
-   cd etl-ecommerce
-Instale as dependências:
-pip install -r requirements.txt
-Configure o banco de dados MySQL no AWS RDS ou localmente.
-
-
-Rode o ETL:
-python etl_ecommerce.py
-Resultados esperados
-Produtos carregados da API.
-
-Clientes fictícios inseridos.
-
-Pedidos e itens de pedidos registrados no banco.
-
-
 
 **Dashboard em Power BI com:**
 
@@ -60,4 +40,5 @@ Origens de clientes (marketing)
 Cancelamentos (com motivos)
 
 Formas de pagamento
+
 
